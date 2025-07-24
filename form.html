@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <div>
+        <h2>Student Registration</h2>
+        <form action="#" method="POST">
+            <div>
+                <label for="fullName">Full Name:</label><br>
+                <input type="text" id="fullName" name="fullName" placeholder="Anika Sethi" required><br><br>
+            </div>
+
+            <div>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="anikasethi@gmail.com" required><br><br>
+            </div>
+
+            <div>
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-789"><br><br>
+            </div>
+
+            <div>
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob" required><br><br>
+            </div>
+
+            <div>
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+            </div>
+
+            <div>
+                <label for="course">Course Enrolling For:</label><br>
+                <select id="course" name="course" required>
+                    <option value="">-- Select a Course --</option>
+                    <option value="computer_science">Computer Science</option>
+                    <option value="mechanical_engineering">Mechanical Engineering</option>
+                    <option value="electrical_engineering">Electrical Engineering</option>
+                    <option value="civil_engineering">Civil Engineering</option>
+                    <option value="business_administration">Business Administration</option>
+                    <option value="arts_humanities">Arts & Humanities</option>
+                </select><br><br>
+            </div>
+
+            <div>
+                <label for="address">Address:</label><br>
+                <textarea id="address" name="address" rows="4" cols="50" placeholder="123 main street, gurugram haryana"></textarea><br><br>
+            </div>
+
+            <button type="submit">Register Student</button>
+        </form>
+    </div>
+</body>
+</html>
